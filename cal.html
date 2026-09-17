@@ -12,34 +12,37 @@
         <div class="container">
             <h1>Calculator</h1>
 
-            <input type="text" id="result" placeholder="0" readonly>
-            <!--Button Structure-->
-            
-            <div class="buttons">
-                <button class="function" onclick="clr()">AC</button>
-                <button class="function" onclick="blackspace()">⌫</button>
-                <button class="function" onclick="percentage()">%</button>
-                <button class="oprator" onclick="dis('/')">÷</button>
-                
-                <button onclick="dis('7')">7</button>
-                <button onclick="dis('8')">8</button>
-                <button onclick="dis('9')">9</button>
-                <button class="oprator" onclick="dis('*')">*</button>
+            <div class="Calculator">
+                <!--Display Section-->
+                <input type="text" id="result" placeholder="0" readonly>
 
-                <button onclick="dis('4')">4</button>
-                <button onclick="dis('5')">5</button>
-                <button onclick="dis('6')">6</button>
-                <button onclick="dis('-')">-</button>
-                 
-                <button onclick="dis('1')">1</button>
-                <button onclick="dis('2')">2</button>
-                <button onclick="dis('3')">3</button>
-                <button class="oprator" onclick="dis('+')">+</button>
+                <!--Button Section-->
+                <div class="buttons">
+                    <button class="function" onclick="clr()">AC</button>
+                    <button class="function" onclick="blackspace()">⌫</button>
+                    <button class="function" onclick="percentage()">%</button>
+                    <button class="oprator" onclick="dis('/')">÷</button>
 
-                <button onclick="toogle()">±</button>
-                <button onclick="dis('.')">.</button>
-                <button onclick="dis('0')">0</button>
-                <button class="equal" onclick="solve()">=</button>
+                    <button onclick="dis('7')">7</button>
+                    <button onclick="dis('8')">8</button>
+                    <button onclick="dis('9')">9</button>
+                    <button class="oprator" onclick="dis('*')">*</button>
+
+                    <button onclick="dis('4')">4</button>
+                    <button onclick="dis('5')">5</button>
+                    <button onclick="dis('6')">6</button>
+                    <button onclick="dis('-')">-</button>
+
+                    <button onclick="dis('1')">1</button>
+                    <button onclick="dis('2')">2</button>
+                    <button onclick="dis('3')">3</button>
+                    <button class="oprator" onclick="dis('+')">+</button>
+
+                    <button onclick="toogle()">±</button>
+                    <button onclick="dis('.')">.</button>
+                    <button onclick="dis('0')">0</button>
+                    <button class="equal" onclick="solve()">=</button>
+                </div>
             </div>
         </div>
     </body>
